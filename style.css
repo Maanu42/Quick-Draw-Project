@@ -1,0 +1,32 @@
+body{
+    background: rgb(34,178,195);
+    background: linear-gradient(0deg, rgba(34,178,195,0.981127485173757) 0%, rgba(163,45,253,0.9139005944174545) 100%);
+}
+#show{
+    float: right;
+}
+canvas{
+    margin-top: 160px;
+   border: 10px solid white;
+   border-radius: 10px;
+   animation-name: example;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 100px red;}
+    to{box-shadow: 1px 1px 100px white;}
+}
+#clear{
+    background: rgb(65,63,251);
+background: linear-gradient(90deg, rgba(65,63,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+#show{
+    background: rgb(65,63,251);
+background: linear-gradient(27deg, rgba(65,63,251,0.8634804263502276) 0%, rgba(70,252,228,1) 100%);
+}
+.labels{
+    font-family: 'Roboto Mono', monospace;
+font-family: 'Source Sans Pro', sans-serif;
+font-weight: 900;
+}
